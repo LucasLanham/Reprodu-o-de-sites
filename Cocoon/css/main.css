@@ -1,0 +1,329 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,500");
+
+/* Cabeçalho do Site */
+
+a {
+    text-decoration: none;
+}
+
+.fundo {
+    position: absolute;
+    left:0;
+    top: 0;
+    height: 126%;
+    width: 315px;
+    background: #18181c;
+}
+
+.logo {
+    position: absolute;
+    left: 70px;
+    top: 50px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.buttons-1:hover {background: #99896E;
+transition-delay: 0.1s;
+transition-duration: 0.7s;
+}
+
+.buttons-1 {
+    position: relative;
+    top: 138px;
+    display: block;
+    color: white;
+    font-size: 13px;
+    font-family: "Montserrat",sans-serif;
+    padding: 17px 25px 12px 50px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.home {
+    background:#99896E;
+}
+
+.all {
+    background:#99896E
+}
+
+h4 {
+    color: #99896e;
+    margin: 0px 0px 25px;
+    padding: 0px 0px 0px 50px;
+    position: relative;
+    top: 196px;
+    font-size: 15px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+}
+
+.buttons-2:hover {background: #99896E;
+    transition-delay: 0.1s;
+    transition-duration: 0.7s;
+}
+
+.buttons-2{
+    position: relative;
+    top: 188px;
+    display: block;
+    font-size: 13px;
+    padding: 12.3px 25px 12px 50px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 400;
+    color: white;
+    cursor: pointer;
+}
+
+.social-menu {
+    width: 82.5%;
+    height: 29px;
+    position: relative;
+    left: 40px;
+    top: 30rem;
+}
+
+.pinterest {
+    width: 19px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.pinterest:hover{
+    filter: brightness(100);
+    transition-delay: 0.1s;
+    transition-duration: 0.7s;
+}
+
+.facebook {
+    width: 20px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.facebook:hover{
+    filter: brightness(100);
+    transition-delay: 0.1s;
+    transition-duration: 0.7s;
+}
+
+.twitter {
+    width: 20px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.twitter:hover{
+    filter: brightness(100);
+    transition-delay: 0.1s;
+    transition-duration: 0.7s;
+}
+
+.twitter {
+    width: 20px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.twitter:hover{
+    filter: brightness(100);
+    transition-delay: 0.1s;
+    transition-duration: 0.7s;
+}
+
+.dribbble {
+    width: 22px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.dribbble:hover{
+    filter: brightness(2.2);
+    transition-delay: 0.1s;
+    transition-duration: 0.7s;
+}
+
+.copy_right{
+    padding: 25px;
+    padding-left: 30px;
+    color: #99896e;
+    margin-top: 174%;
+    font-size: 12px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+
+
+
+/* Corpo do Site */
+
+.main {
+    position: absolute;
+    left:362px;
+    top: 10px;
+    height: 0;
+    width: 80%;
+}
+
+
+.img1 {
+    position: relative;
+    width: 25.4%;
+    height: 46.7rem;
+}
+
+.img2 {
+    position: relative;
+    left: -0.238rem;
+    top: -23.3rem;
+    width: 46.89rem;
+    height: 23.4rem;
+}
+
+.img3 {
+    position: relative;
+    left: -0.54rem;
+    top: -23.35rem;
+    width: 22.46rem;
+    height: 23.32rem;
+}
+
+.img4 {
+    position: relative;
+    left: 24.2rem;
+    top: -23.6rem;
+    width: 23rem;
+    height: 23.32rem;
+}
+
+.img5 {
+    position: relative;
+    left: 23.9rem;
+    top: -23.6rem;
+    width: 23.9rem;
+    height: 23.32rem;
+}
+
+.img6 {
+    position: relative;
+    left: 23.65rem;
+    top: -23.57rem;
+    width: 22.46rem;
+    height: 23.32rem;
+}
+
+.img7 {
+    position: relative;
+    left: -70.1rem;
+    top: -0.29rem;
+    width: 24.15rem;
+    height: 23.32rem;
+}
+
+.img8 {
+    position: relative;
+    left: 24.2rem;
+    top: -23.85rem;
+    width: 22.8946rem;
+    height: 23.32rem;
+}
+
+.img9 {
+    position: relative;
+    left: 24rem;
+    top: -23.85rem;
+    width: 46.37rem;
+    height: 23.3rem; 
+}
+
+.btn-img1:hover{
+    position: relative;
+    width: 17rem;
+    height: 34rem;
+    cursor: crosshair ;
+    filter: brightness(0.40);
+    transition-delay: 0.1s;
+    transition-duration: 0.5s;
+}
+
+.btn-img2:hover{
+    position: relative;
+    width: 17rem;
+    height: 34rem;
+    cursor: crosshair ;
+    filter: brightness(0.40);
+    transition-delay: 0.1s;
+    transition-duration: 0.5s;
+}
+
+.btn-img3:hover{
+    position: relative;
+    width: 17rem;
+    height: 34rem;
+    cursor: crosshair ;
+    filter: brightness(0.40);
+    transition-delay: 0.1s;
+    transition-duration: 0.5s;
+}
+
+.btn-img4:hover{
+    position: relative;
+    width: 17rem;
+    height: 34rem;
+    cursor: crosshair ;
+    filter: brightness(0.40);
+    transition-delay: 0.1s;
+    transition-duration: 0.5s;
+}
+
+.btn-img5:hover{
+    position: relative;
+    width: 17rem;
+    height: 34rem;
+    cursor: crosshair ;
+    filter: brightness(0.40);
+    transition-delay: 0.1s;
+    transition-duration: 0.5s;
+}
+
+.btn-img6:hover{
+    position: relative;
+    width: 17rem;
+    height: 34rem;
+    cursor: crosshair ;
+    filter: brightness(0.40);
+    transition-delay: 0.1s;
+    transition-duration: 0.5s;
+}
+
+.btn-img7:hover{
+    position: relative;
+    width: 17rem;
+    height: 34rem;
+    cursor: crosshair ;
+    filter: brightness(0.40);
+    transition-delay: 0.1s;
+    transition-duration: 0.5s;
+}
+
+.btn-img8:hover{
+    position: relative;
+    width: 17rem;
+    height: 34rem;
+    cursor: crosshair ;
+    filter: brightness(0.40);
+    transition-delay: 0.1s;
+    transition-duration: 0.5s;
+}
+
+.btn-img9:hover{
+    position: relative;
+    width: 46.37rem;
+    height: 23.3rem; 
+    cursor: crosshair ;
+    filter: brightness(0.40);
+    transition-delay: 0.1s;
+    transition-duration: 0.5s;
+}
